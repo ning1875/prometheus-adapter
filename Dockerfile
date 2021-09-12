@@ -1,4 +1,4 @@
-ARG GO_VERSION
+ARG 1.16
 
 FROM golang:${GO_VERSION} as build
 
