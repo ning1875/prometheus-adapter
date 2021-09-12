@@ -1,4 +1,5 @@
-ARG 1.17
+ARG GOVERSION=1.17
+
 
 FROM golang:1.17 as build
 
