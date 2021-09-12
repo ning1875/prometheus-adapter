@@ -1,6 +1,6 @@
-ARG 1.16
+ARG 1.17
 
-FROM golang:${GO_VERSION} as build
+FROM golang:1.17 as build
 
 WORKDIR /go/src/sigs.k8s.io/prometheus-adapter
 COPY go.mod .
